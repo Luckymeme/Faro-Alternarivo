@@ -1,0 +1,80 @@
+.publicidad {
+    min-height: 5em;
+    max-height: 20em;
+    background-color: gray;
+    border-radius: 2px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+.mensaje-bienbenida {
+    height: 5em;
+    background-color: tan;
+    margin-bottom: 2em;
+}
+
+.quedadas{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5em;
+    border: 2px;
+    border-color: red;
+    box-shadow: 0px 0px 3px 0px grey;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 1em;
+    width: 80vw;
+}
+
+.quedadas>input {
+    border-radius: 10px;
+    width: 20vw;
+}
+
+.quedadas>div {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content; 
+    gap: 2em;
+    justify-content: center;
+}
+
+.quedadas>div>div{
+    min-width: 250px;
+    max-width: 10vw;
+    box-shadow: 1px 1px 1px 1px black;
+    padding: 1vw;
+}
+
+.quedadas>div>div>img {
+    width: 10vw;
+    height: 10vw;
+}
+
+.lista-amigos{
+    margin-top: 5em;
+    box-shadow: 0px 0px 1px 0px black;
+    padding: 2em;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 5em;
+    row-gap: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border-radius: 0.5em;
+}
+
+.lista-amigos>div>img{
+width:5vw;
+height: 5vw;
+border-radius: 100%;
+background-color: white;
+filter: invert(100%);
+}
+
+.lista-amigos>div>p{
+    text-align: center;
+}
+

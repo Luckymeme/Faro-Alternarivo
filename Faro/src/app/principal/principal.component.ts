@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./principal.component.css']
 })
 export class PrincipalComponent implements OnInit {
-
+cantidad : number[] = [1,2,3,4,5,6,7,8,9];
   constructor() { }
 
   ngOnInit(): void {

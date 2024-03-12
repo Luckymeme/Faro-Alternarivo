@@ -1,4 +1,8 @@
 .panel-formulario {
+    margin: auto;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    padding: 1em;
     width: 35vw;
     text-align: center;
     box-shadow: 1px 1px 5px 1px gray;

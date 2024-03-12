@@ -7,6 +7,10 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { PrincipalComponent } from './principal/principal.component';
+import { LoginComponent } from './login/login.component';
+import { RegistroComponent } from './registro/registro.component';
+import { ListaAmigosComponent } from './lista-amigos/lista-amigos.component';
+import { PerfilComponent } from './perfil/perfil.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { PrincipalComponent } from './principal/principal.component';
     ContactoComponent,
     FooterComponent,
     HeaderComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    LoginComponent,
+    RegistroComponent,
+    ListaAmigosComponent,
+    PerfilComponent
   ],
   imports: [
     BrowserModule,

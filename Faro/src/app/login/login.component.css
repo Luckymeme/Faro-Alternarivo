@@ -1,0 +1,19 @@
+.panel-formulario {
+    width: 35vw;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 1em;
+    background-color: #D6E7F8;
+}
+
+.panel-formulario>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 5%;
+    align-items: center;
+}
+
+.panel-formulario>form>input{
+    width: 70%;
+}

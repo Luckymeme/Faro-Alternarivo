@@ -1,0 +1,53 @@
+.Eliminar {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    border: transparent;
+}
+
+.Bloquear {
+    background-color: red;
+    color: black;
+    padding: 0.5em;
+    border: transparent;
+}
+
+.foto-perfil {
+    border-radius: 100%;
+    width: 5vw;
+    height: 5vw;
+}
+
+.lista-amigos{
+    background-color: #D6E7F8;
+    width: 80%;
+    height: 80vh;
+    overflow: auto;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.amigo{
+    display: flex;
+    flex-direction: row;
+    gap:1em;
+    align-items: center;
+}
+
+/*barra lateral*/
+.lista-amigos::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+}
+
+.lista-amigos::-webkit-scrollbar-thumb {
+    background-color: #424242; /* Set the color of the scrollbar thumb */
+    border-radius: 6px; /* Add rounded corners to the thumb */
+}
+
+.lista-amigos::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Set the color of the scrollbar track */
+    border-radius: 6px;
+}

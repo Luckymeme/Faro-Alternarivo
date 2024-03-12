@@ -1,0 +1,43 @@
+.panel-formulario {
+    width: 35vw;
+    text-align: center;
+    box-shadow: 1px 1px 5px 1px gray;
+    border-radius: 1em;
+    background-color: #D6E7F8;
+}
+
+.panel-formulario>form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 5%;
+    align-items: center;
+}
+
+.form-registro{
+display: flex;
+flex-direction: column;
+gap: 1em;
+width: 70%;
+}
+.form-registro>input{
+    height: 2em;
+    text-align: center;
+    border-radius: 1em;
+    border: 1px solid gray;
+}
+
+.lista-gustos{
+    display:grid;
+    gap: 1em;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.tarjeta-gustos{
+background-color: lightgray ;
+padding: 0.5em;
+text-align: center;
+align-self: center;
+height: 3.5em;
+border-radius: 1em;
+}

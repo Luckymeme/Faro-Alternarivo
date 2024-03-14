@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ListaAmigosComponent } from './lista-amigos/lista-amigos.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { EventosComponent } from './eventos/eventos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { PerfilComponent } from './perfil/perfil.component';
     LoginComponent,
     RegistroComponent,
     ListaAmigosComponent,
-    PerfilComponent
+    PerfilComponent,
+    EventosComponent
   ],
   imports: [
     BrowserModule,

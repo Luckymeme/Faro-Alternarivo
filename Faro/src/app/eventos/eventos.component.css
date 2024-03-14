@@ -1,0 +1,18 @@
+
+.imagenesEventos{
+    display: flex;
+    flex-direction: column;
+}
+.miniaturasEventos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.miniaturasEventos>img{
+ background-color: aqua;
+}
+
+*{
+    background-color: yellowgreen;
+}

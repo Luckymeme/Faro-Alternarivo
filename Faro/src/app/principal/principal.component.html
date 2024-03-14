@@ -11,17 +11,18 @@
 </div>
 
 <div class="quedadas mx-auto">
-  <input type="text">
+  <input type="text" placeholder="Busca eventos en los que participes">
   <div>
     <div *ngFor="let evento of cantidad">
-      <img src="assets/Faro-logo.png" alt="Quedada?">
-      <p>
-        Lorem ipsun Lorem ipsun Lorem ipsun
-        Lorem ipsun Lorem ipsun Lorem ipsun
+      <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
+      <div class="info-evento">
+       <p>
+        Evento en el que participas
       </p>
+      <button>Ver más...</button> 
+      </div>   
     </div>
   </div>
-  ^^Eventos a los que estas inscrito^^
 </div>
 <div class="publicidad col-md-11 mx-auto d-flex align-items-center justify-content-center">
   <p>
@@ -29,24 +30,27 @@
   </p>
 </div>
 <div class="quedadas mx-auto">
-  <input type="text">
+  <input type="text" placeholder="Busca eventos o explora por categorias">
   <div>
     <div *ngFor="let evento of cantidad">
-      <img src="assets/Faro-logo.png" alt="Quedada?">
-      <p>
-        Lorem ipsun Lorem ipsun Lorem ipsun
-        Lorem ipsun Lorem ipsun Lorem ipsun
-      </p>
+      <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
+      <div class="info-evento">
+        <p>
+         Evento en x lugar a las n, hay comida y buen ambiente.
+       </p>
+       <button>Ver más...</button> 
+       </div> 
     </div>
     <div *ngFor="let evento of cantidad">
-      <img src="assets/Faro-logo.png" alt="Quedada?">
-      <p>
-        Lorem ipsun Lorem ipsun Lorem ipsun
-        Lorem ipsun Lorem ipsun Lorem ipsun
-      </p>
+      <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
+      <div class="info-evento">
+        <p>
+          Evento en x lugar a las n, actividades incluidas.
+       </p>
+       <button>Ver más...</button> 
+       </div> 
     </div>
   </div>
-  ^^Eventos ordenados por fecha^^
 </div>
 
 <div class="publicidad col-md-11 mx-auto d-flex align-items-center justify-content-center">
@@ -58,20 +62,20 @@
 
 <div class="lista-amigos col-md-11 mx-auto">
   <div *ngFor="let evento of cantidad">
-    <img src="assets/Faro-logo.png" alt="">
+    <img [src]="'https://picsum.photos/' + evento+'00'" alt="">
+    <div class="status-green"></div>
     <p>
       Nombre
     </p>
   </div>
-  ^^amigos añadidos^^
 </div>
 
 <div class="lista-amigos col-md-11 mx-auto">
   <div *ngFor="let evento of cantidad">
-    <img src="assets/Faro-logo.png" alt="">
+    <img [src]="'https://picsum.photos/' + evento+'00'" alt="">
+    <div class="status-green"></div>
     <p>
       Nombre
     </p>
   </div>
-  ^^Amigos recomendados en base a gustos y eentos participados^^
 </div>

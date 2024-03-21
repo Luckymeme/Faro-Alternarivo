@@ -13,6 +13,8 @@ import { RegistroComponent } from './registro/registro.component';
 import { ListaAmigosComponent } from './lista-amigos/lista-amigos.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { EventosComponent } from './eventos/eventos.component';
+import { ChatComponent } from './chat/chat.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { EventosComponent } from './eventos/eventos.component';
     RegistroComponent,
     ListaAmigosComponent,
     PerfilComponent,
-    EventosComponent
+    EventosComponent,
+    ChatComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,

@@ -1,3 +1,47 @@
+
+<div class="fondo">
+    <div class="tarjeta">
+         <!--Tenemos que importar ReactiveFormsModule en app.module-->
+        <div class="registro">
+            <form>
+                        
+                <div>
+                            <label for="nombre">Introduce tu Nombre:</label>
+                            <input type="text" id="nombre" formControlName="nombre" required />
+                        </div>
+                        <div>
+                            <label for="apellidos">Introduce tus Apellidos:</label>
+                            <input type="text" id="apellidos" formControlName="apellidos" required />
+                        </div>
+                        <div>
+                            <label for="nick">Introduce tu Nick:</label>
+                            <input type="text" id="nick" formControlName="nick"/>
+                        </div>
+                        <div>
+                            <label for="correo">Introduce tu Correo:</label>
+                            <input type="email" id="correo" formControlName="email" required />
+                        </div>
+                        <div>
+                            <label for="contrasena">Introduce tu Contraseña:</label>
+                            <input type="password" id="contrasena" formControlName="contrasena" required />
+                        </div>
+                        <div>
+                            <label for="contrasena">Introduce tu Contraseña:</label>
+                            <input type="password" id="contrasena" formControlName="contrasena" required />
+                        </div>
+                        
+                    </form>
+                </div>
+                
+    </div>
+    <button mat-raised-button class="nav-button" routerLink="principal" type="submit" >
+        REGISTRO
+    </button>
+    <button mat-raised-button class="nav-button" routerLink="LOGIN" type="submit" >
+        LOGIN
+    </button>
+</div>
+
 <div class="panel-formulario">
     <form action="login.html">
         <div class="form-registro">
@@ -54,3 +98,4 @@
     </form>
     <p>Ya tienes cuenta? <a routerLink="/login">Inicia sesión!</a></p>
 </div>
+

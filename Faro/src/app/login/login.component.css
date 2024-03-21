@@ -1,3 +1,57 @@
+
+.fondo{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(/assets/Xuchumons/pokemons.jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para que la imagen de fondo sea visible */
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para destacar la tarjeta */
+}
+.login {
+    text-align: center;
+    } 
+  h2{
+    text-align: center;
+    color: red;
+    text-shadow:2px 2px 8px #000;
+    }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+    }
+  label {
+    margin-bottom: 5px;
+  }
+ 
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  button {
+    padding: 10px;
+    background-color: #007BFF; /* Cambia el color según tus preferencias */
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
 .panel-formulario {
     width: 35vw;
     text-align: center;

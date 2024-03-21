@@ -14,10 +14,17 @@
   <input type="text" placeholder="Busca eventos en los que participes">
   <div>
     <div *ngFor="let evento of cantidad">
+
+      <img src="assets/Faro-logo.png" routerLink="principal" alt="Quedada?">
+      <p>
+        Lorem ipsun Lorem ipsun Lorem ipsun
+        Lorem ipsun Lorem ipsun Lorem ipsun
+
       <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
       <div class="info-evento">
        <p>
         Evento en el que participas
+
       </p>
       <button>Ver más...</button> 
       </div>   

@@ -4,9 +4,11 @@ import { ContactoComponent } from './contacto/contacto.component';
 import { PrincipalComponent } from './principal/principal.component';
 import { RegistroComponent } from './registro/registro.component';
 import { LoginComponent } from './login/login.component';
+
 import { PerfilComponent } from './perfil/perfil.component';
 import { ListaAmigosComponent } from './lista-amigos/lista-amigos.component';
 import { EventosComponent } from './eventos/eventos.component';
+
 
 const routes: Routes = [
   { path: 'home', component: PrincipalComponent },
@@ -16,7 +18,8 @@ const routes: Routes = [
   { path: 'eventos', component: EventosComponent },
   { path: 'lista-amigos', component: ListaAmigosComponent },
   { path: 'contacto', component: ContactoComponent },
-  { path: '', component: PrincipalComponent}
+  { path: 'principal', component: PrincipalComponent},
+  { path: '', component: RegistroComponent},
 ];
 
 @NgModule({

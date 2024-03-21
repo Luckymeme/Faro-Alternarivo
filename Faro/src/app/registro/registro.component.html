@@ -1,47 +1,3 @@
-
-<div class="fondo">
-    <div class="tarjeta">
-         <!--Tenemos que importar ReactiveFormsModule en app.module-->
-        <div class="registro">
-            <form>
-                        
-                <div>
-                            <label for="nombre">Introduce tu Nombre:</label>
-                            <input type="text" id="nombre" formControlName="nombre" required />
-                        </div>
-                        <div>
-                            <label for="apellidos">Introduce tus Apellidos:</label>
-                            <input type="text" id="apellidos" formControlName="apellidos" required />
-                        </div>
-                        <div>
-                            <label for="nick">Introduce tu Nick:</label>
-                            <input type="text" id="nick" formControlName="nick"/>
-                        </div>
-                        <div>
-                            <label for="correo">Introduce tu Correo:</label>
-                            <input type="email" id="correo" formControlName="email" required />
-                        </div>
-                        <div>
-                            <label for="contrasena">Introduce tu Contraseña:</label>
-                            <input type="password" id="contrasena" formControlName="contrasena" required />
-                        </div>
-                        <div>
-                            <label for="contrasena">Introduce tu Contraseña:</label>
-                            <input type="password" id="contrasena" formControlName="contrasena" required />
-                        </div>
-                        
-                    </form>
-                </div>
-                
-    </div>
-    <button mat-raised-button class="nav-button" routerLink="principal" type="submit" >
-        REGISTRO
-    </button>
-    <button mat-raised-button class="nav-button" routerLink="LOGIN" type="submit" >
-        LOGIN
-    </button>
-</div>
-
 <div class="panel-formulario">
     <form action="login.html">
         <div class="form-registro">
@@ -60,41 +16,48 @@
                     <label for="pesca">Pesca</label>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="videojuegos" name="hobbies" value="videojuegos">
                     <p>Videojuegos</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="musica" name="hobbies" value="musica">
                     <p>Musica</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="deporte" name="hobbies" value="deporte">
                     <p>Deporte</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="info" name="hobbies" value="info">
                     <p>Informatica</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="fiesta" name="hobbies" value="fiesta">
                     <p>Fiesta</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="cocina" name="hobbies" value="cocina">
                     <p>Cocina</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="carpinteria" name="hobbies" value="carpinteria">
                     <p>Carpinteria</p>
                 </div>
                 <div class="tarjeta-gustos">
-                    <p>Drogas</p>
-                </div>
-                <div class="tarjeta-gustos">
+                    <input type="checkbox" id="dibujo" name="hobbies" value="dibujo">
                     <p>Dibujo</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="disfraces" name="hobbies" value="disfraces">
                     <p>Disfraces</p>
                 </div>
                 <div class="tarjeta-gustos">
+                    <input type="checkbox" id="Naturaleza" name="hobbies" value="Naturaleza">
                     <p>Naturaleza</p>
                 </div>
             </div>
         </div>
-        <input type="submit" value="Crear usuario">
+        <input routerLink="/principal" type="submit" value="Crear usuario">
     </form>
     <p>Ya tienes cuenta? <a routerLink="/login">Inicia sesión!</a></p>
 </div>

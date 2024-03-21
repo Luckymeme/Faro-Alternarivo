@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'lista-amigos', component: ListaAmigosComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'principal', component: PrincipalComponent},
-  { path: '', component: RegistroComponent},
+  { path: '', component: LoginComponent},
 ];
 
 @NgModule({

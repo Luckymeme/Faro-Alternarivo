@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { PerfilComponent } from './perfil/perfil.component';
 import { ListaAmigosComponent } from './lista-amigos/lista-amigos.component';
 import { EventosComponent } from './eventos/eventos.component';
+import { ChatComponent } from './chat/chat.component';
+import { AdminComponent } from './admin/admin.component';
+
 
 
 const routes: Routes = [
@@ -19,11 +22,14 @@ const routes: Routes = [
   { path: 'lista-amigos', component: ListaAmigosComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'principal', component: PrincipalComponent},
-  { path: '', component: RegistroComponent},
+  { path: '', component: LoginComponent},
+  { path: 'chat', component: ChatComponent},
+  { path: 'admin', component: AdminComponent},
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
+
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

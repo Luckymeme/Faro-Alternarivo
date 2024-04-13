@@ -77,18 +77,26 @@
     color: #4CAF50;
 }
 
+.panel-amigos{
+    padding-top: 20px;
+    box-shadow: 0px 0px 1px 0px black;
+    border-radius: 0.5em;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 0em;
+}
+
 .lista-amigos {
     margin-top: 5em;
-    box-shadow: 0px 0px 1px 0px black;
     padding: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 5em;
     row-gap: 2em;
-    margin-top: 5em;
     margin-bottom: 5em;
-    border-radius: 0.5em;
 }
 
 .lista-amigos>div>img {

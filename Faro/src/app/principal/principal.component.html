@@ -14,20 +14,13 @@
   <input type="text" placeholder="Busca eventos en los que participes">
   <div>
     <div *ngFor="let evento of cantidad">
-
-      <img src="assets/Faro-logo.png" routerLink="principal" alt="Quedada?">
-      <p>
-        Lorem ipsun Lorem ipsun Lorem ipsun
-        Lorem ipsun Lorem ipsun Lorem ipsun
-
       <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
       <div class="info-evento">
-       <p>
-        Evento en el que participas
-
-      </p>
-      <button>Ver más...</button> 
-      </div>   
+        <p>
+          Evento en el que participas
+        </p>
+        <button routerLink="/eventos">Ver más...</button>
+      </div>
     </div>
   </div>
 </div>
@@ -43,19 +36,19 @@
       <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
       <div class="info-evento">
         <p>
-         Evento en x lugar a las n, hay comida y buen ambiente.
-       </p>
-       <button>Ver más...</button> 
-       </div> 
+          Evento en x lugar a las n, hay comida y buen ambiente.
+        </p>
+        <button>Ver más...</button>
+      </div>
     </div>
     <div *ngFor="let evento of cantidad">
       <img [src]="'https://picsum.photos/' + evento+'00'" alt="Quedada?">
       <div class="info-evento">
         <p>
           Evento en x lugar a las n, actividades incluidas.
-       </p>
-       <button>Ver más...</button> 
-       </div> 
+        </p>
+        <button routerLink="/eventos">Ver más...</button>
+      </div>
     </div>
   </div>
 </div>
@@ -67,22 +60,27 @@
 </div>
 
 
-<div class="lista-amigos col-md-11 mx-auto">
-  <div *ngFor="let evento of cantidad">
-    <img [src]="'https://picsum.photos/' + evento+'00'" alt="">
-    <div class="status-green"></div>
-    <p>
-      Nombre
-    </p>
+<div class="panel-amigos col-md-11 mx-auto">
+  <p>Mis amigos</p>
+  <div class="lista-amigos">
+    <div *ngFor="let evento of cantidad">
+      <img [src]="'https://picsum.photos/' + evento+'00'" alt="">
+      <div class="status-green"></div>
+      <p><strong>
+          Amigo
+        </strong></p>
+    </div>
   </div>
 </div>
 
-<div class="lista-amigos col-md-11 mx-auto">
-  <div *ngFor="let evento of cantidad">
-    <img [src]="'https://picsum.photos/' + evento+'00'" alt="">
-    <div class="status-green"></div>
-    <p>
-      Nombre
-    </p>
+<div class="panel-amigos col-md-11 mx-auto">
+  <p>Quizas conozcas...</p>
+  <div class="lista-amigos">
+    <div *ngFor="let evento of cantidad">
+      <img [src]="'https://picsum.photos/' + evento+'00'" alt="">
+      <p><strong>
+          Persona
+        </strong></p>
+    </div>
   </div>
 </div>

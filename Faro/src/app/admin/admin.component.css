@@ -5,33 +5,33 @@ body {
   .container {
     max-width: 800px;
     margin: 50px auto;
+    margin-top: 4%;
+    margin-bottom: 14%;
   }
   .card {
     margin-bottom: 20px;
-    border: 2px solid #007bff;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   }
-  .card-header {
-    background-color: #007bff;
-    color: #fff;
-    border-bottom: none;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-  }
-  .btn-create-event {
+  .btn-create {
     background-color: #28a745;
     color: #fff;
     border: none;
   }
-  .btn-create-event:hover {
+  .btn-create:hover {
     background-color: #218838;
   }
-  .btn-primary {
+  .btn-edit {
     background-color: #ffc107;
     color: #212529;
     border: none;
   }
-  .btn-primary:hover {
+  .btn-edit:hover {
     background-color: #ffca28;
+  }
+  .btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+  }
+  .btn-delete:hover {
+    background-color: #c82333;
   }

@@ -1,10 +1,12 @@
 
-<div class="panel-formulario">
-    <form action="perfil.html">
-        <input type="email" placeholder="Nombre" required>
+<div class="container mt-5">
+    <div class="panel-formulario">
+      <h2>Iniciar Sesión</h2>
+      <form action="/principal">
+        <input type="email" placeholder="Correo Electrónico" required>
         <input type="password" placeholder="Contraseña" required>
-        <input type="submit" value="Iniciar sesión">
-    </form>
-    <p>No tienes cuenta? <span routerLink="/registro">Registrate ahora!</span></p>
-
-</div>
+        <input type="submit" value="Iniciar Sesión">
+      </form>
+      <p>¿No tienes cuenta? <span onclick="window.location.href='/registro'" style="cursor:pointer;">Regístrate ahora!</span></p>
+    </div>
+  </div>

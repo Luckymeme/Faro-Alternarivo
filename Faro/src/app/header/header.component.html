@@ -1,6 +1,6 @@
-<header>
+<header *ngIf=" router.url !== '/login' && router.url !== '/registro'">
     <div>
-        <img src="assets/Faro-logo.png" routerLink="principal" alt="Logo faro" class="logo-menu" routerLink="/principal">
+        <img src="assets/Faro-logo.png" alt="Logo faro" class="logo-menu" routerLink="/principal">
     </div>
     <div class="links-header ">
         <button routerLink="/chat">
@@ -13,5 +13,10 @@
             AMIGOS
         </button>
         <img src="assets/Faro-logo.png" alt="imagen perfil" class="perfil-menu" routerLink="/perfil">
+    </div>
+</header>
+<header *ngIf=" router.url === '/login' || router.url === '/registro'">
+    <div>
+        <img src="assets/Faro-logo.png" alt="Logo faro" class="logo-menu" >
     </div>
 </header>

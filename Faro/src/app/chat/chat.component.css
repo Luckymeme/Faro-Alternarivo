@@ -1,12 +1,13 @@
-body {
-    background-color: #f8f9fa;
+.todo {
+    background-image: url(../../assets/chat-fondo.png);
+    background-size: cover;
     font-family: Arial, sans-serif;
+    padding: 15%;
+    
   }
   .container {
     max-width: 800px;
-    margin: 70px auto;
-    margin-top: 7%;
-    margin-bottom: 17%;
+   background-color: white;
   }
   .card {
     margin-bottom: 20px;
@@ -21,7 +22,7 @@ body {
     cursor: pointer;
   }
   .chat-list-item:hover {
-    background-color: #f0f0f0;
+    background-color: #ffffff;
   }
   .chat-box {
     height: 300px;

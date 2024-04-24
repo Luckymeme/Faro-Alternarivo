@@ -1,11 +1,22 @@
+/* * {  background-color: yellowgreen;} */
 .contenedor-eventos {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
+  padding: 5%;
+  gap: 5%;
+  justify-content: center;
+  align-content: center;
 
 }
 
 .imagenesEventos {
   flex-direction: column;
+}
+
+.imagenesEventos img {
+  border-radius: 5%;
+  border: solid 1px black;
+  margin-bottom: 2%;
 }
 
 .miniaturasEventos {
@@ -17,7 +28,10 @@
 .miniaturasEventos>img {
   background-color: aqua;
 }
-
-* {
-  background-color: yellowgreen;
+.info-Eventos{
+  flex-flow: column nowrap;
+  background-color: #3966A0;
+  border-radius: 5%;
+  padding: 1%;
+  
 }

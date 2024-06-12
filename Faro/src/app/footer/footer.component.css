@@ -1,5 +1,5 @@
 footer {
-    background-color: #3966A0;
+    background-color: #ff8052;
     height: 50px;
     width: 100%;
     margin-top: auto;
@@ -11,7 +11,8 @@ footer {
 }
 
 footer>a {
-    color: white;
+    color: #f7f7f7;
     text-decoration: none;
     font-size: 1.2em;
+    font-weight: bold;
 }

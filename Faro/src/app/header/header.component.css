@@ -1,11 +1,11 @@
 header {
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: #ff8052;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: beige;
+    color: #f7f7f7;
     align-items: center;
 }
 
@@ -18,6 +18,8 @@ header>div>button {
     width: 10em;
     height: 3em;
     border-radius: 0.5em;
+    background-color: #f7f7f7;
+    color:#191919;
 }
 
 .links-header {
